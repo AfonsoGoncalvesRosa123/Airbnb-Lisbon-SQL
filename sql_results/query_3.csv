@@ -1,0 +1,61 @@
+﻿neighbourhood,room_type,listings,pct_of_neighbourhood
+Ajuda,Entire home/apt,199,84.7
+Ajuda,Private room,36,15.3
+Alcântara,Entire home/apt,232,78.1
+Alcântara,Private room,61,20.5
+Alcântara,Shared room,4,1.3
+Alvalade,Entire home/apt,151,56.8
+Alvalade,Private room,113,42.5
+Alvalade,Shared room,1,0.4
+Alvalade,Hotel room,1,0.4
+Areeiro,Private room,288,61.0
+Areeiro,Entire home/apt,167,35.4
+Areeiro,Hotel room,10,2.1
+Areeiro,Shared room,7,1.5
+Arroios,Entire home/apt,1169,55.3
+Arroios,Private room,894,42.3
+Arroios,Hotel room,33,1.6
+Arroios,Shared room,17,0.8
+Avenidas Novas,Private room,451,53.1
+Avenidas Novas,Entire home/apt,374,44.1
+Avenidas Novas,Hotel room,20,2.4
+Avenidas Novas,Shared room,4,0.5
+Beato,Entire home/apt,88,67.2
+Beato,Private room,43,32.8
+Belém,Entire home/apt,239,84.5
+Belém,Private room,40,14.1
+Belém,Shared room,4,1.4
+Campo de Ourique,Entire home/apt,367,81.2
+Campo de Ourique,Private room,81,17.9
+Campo de Ourique,Shared room,4,0.9
+Campolide,Entire home/apt,257,82.6
+Campolide,Private room,54,17.4
+Estrela,Entire home/apt,838,84.4
+Estrela,Private room,153,15.4
+Estrela,Shared room,2,0.2
+Lumiar,Entire home/apt,85,64.9
+Lumiar,Private room,46,35.1
+Misericórdia,Entire home/apt,2247,84.4
+Misericórdia,Private room,404,15.2
+Misericórdia,Hotel room,6,0.2
+Misericórdia,Shared room,5,0.2
+Olivais,Entire home/apt,109,54.8
+Olivais,Private room,90,45.2
+Parque das Nações,Entire home/apt,290,88.4
+Parque das Nações,Private room,36,11.0
+Parque das Nações,Shared room,2,0.6
+Penha de França,Entire home/apt,397,62.4
+Penha de França,Private room,239,37.6
+Santa Maria Maior,Entire home/apt,3201,87.7
+Santa Maria Maior,Private room,384,10.5
+Santa Maria Maior,Hotel room,40,1.1
+Santa Maria Maior,Shared room,24,0.7
+Santo António,Entire home/apt,1133,74.5
+Santo António,Private room,366,24.1
+Santo António,Hotel room,14,0.9
+Santo António,Shared room,8,0.5
+São Domingos de Benfica,Entire home/apt,98,67.6
+São Domingos de Benfica,Private room,47,32.4
+São Vicente,Entire home/apt,1072,87.4
+São Vicente,Private room,154,12.6
+São Vicente,Shared room,1,0.1

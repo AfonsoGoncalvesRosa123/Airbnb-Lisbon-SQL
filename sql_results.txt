@@ -1,0 +1,209 @@
+=== query_0 ===
+     tbl       n
+listings   25020
+   hosts    9484
+ reviews 1948929
+
+=== query_1 ===
+    neighbourhood  listings avg_price
+Santa Maria Maior      3391     199.2
+     Misericórdia      2425     187.5
+          Arroios      1828     152.9
+    Santo António      1331     184.9
+      São Vicente      1116     157.1
+          Estrela       858     161.4
+   Avenidas Novas       603     136.8
+  Penha de França       532     123.6
+ Campo de Ourique       376     153.4
+          Areeiro       308     133.3
+        Campolide       281     139.7
+Parque das Nações       272     186.0
+        Alcântara       260     133.1
+            Belém       246     163.2
+            Ajuda       211     136.5
+
+=== query_2 ===
+          neighbourhood median_price  listings
+      Santa Maria Maior        169.0      3391
+           Misericórdia        161.5      2425
+          Santo António        160.8      1331
+      Parque das Nações        155.1       272
+                Estrela        140.0       858
+                  Belém        135.0       246
+            São Vicente        134.2      1116
+São Domingos de Benfica        133.0       111
+       Campo de Ourique        131.6       376
+              Campolide        125.0       281
+                  Ajuda        122.5       211
+              Alcântara        122.3       260
+                Marvila        119.9        74
+                Arroios        119.2      1828
+               Alvalade        118.0       201
+         Avenidas Novas        115.5       603
+        Penha de França        111.0       532
+                Benfica        109.1        58
+                 Lumiar        107.5       103
+                  Beato        101.9       122
+                Areeiro         92.7       308
+                Olivais         91.0       169
+            Santa Clara         67.0        35
+
+=== query_3 ===
+          neighbourhood       room_type  listings pct_of_neighbourhood
+                  Ajuda Entire home/apt       199                 84.7
+                  Ajuda    Private room        36                 15.3
+              Alcântara Entire home/apt       232                 78.1
+              Alcântara    Private room        61                 20.5
+              Alcântara     Shared room         4                  1.3
+               Alvalade Entire home/apt       151                 56.8
+               Alvalade    Private room       113                 42.5
+               Alvalade     Shared room         1                  0.4
+               Alvalade      Hotel room         1                  0.4
+                Areeiro    Private room       288                 61.0
+                Areeiro Entire home/apt       167                 35.4
+                Areeiro      Hotel room        10                  2.1
+                Areeiro     Shared room         7                  1.5
+                Arroios Entire home/apt      1169                 55.3
+                Arroios    Private room       894                 42.3
+                Arroios      Hotel room        33                  1.6
+                Arroios     Shared room        17                  0.8
+         Avenidas Novas    Private room       451                 53.1
+         Avenidas Novas Entire home/apt       374                 44.1
+         Avenidas Novas      Hotel room        20                  2.4
+         Avenidas Novas     Shared room         4                  0.5
+                  Beato Entire home/apt        88                 67.2
+                  Beato    Private room        43                 32.8
+                  Belém Entire home/apt       239                 84.5
+                  Belém    Private room        40                 14.1
+                  Belém     Shared room         4                  1.4
+       Campo de Ourique Entire home/apt       367                 81.2
+       Campo de Ourique    Private room        81                 17.9
+       Campo de Ourique     Shared room         4                  0.9
+              Campolide Entire home/apt       257                 82.6
+              Campolide    Private room        54                 17.4
+                Estrela Entire home/apt       838                 84.4
+                Estrela    Private room       153                 15.4
+                Estrela     Shared room         2                  0.2
+                 Lumiar Entire home/apt        85                 64.9
+                 Lumiar    Private room        46                 35.1
+           Misericórdia Entire home/apt      2247                 84.4
+           Misericórdia    Private room       404                 15.2
+           Misericórdia      Hotel room         6                  0.2
+           Misericórdia     Shared room         5                  0.2
+                Olivais Entire home/apt       109                 54.8
+                Olivais    Private room        90                 45.2
+      Parque das Nações Entire home/apt       290                 88.4
+      Parque das Nações    Private room        36                 11.0
+      Parque das Nações     Shared room         2                  0.6
+        Penha de França Entire home/apt       397                 62.4
+        Penha de França    Private room       239                 37.6
+      Santa Maria Maior Entire home/apt      3201                 87.7
+      Santa Maria Maior    Private room       384                 10.5
+      Santa Maria Maior      Hotel room        40                  1.1
+      Santa Maria Maior     Shared room        24                  0.7
+          Santo António Entire home/apt      1133                 74.5
+          Santo António    Private room       366                 24.1
+          Santo António      Hotel room        14                  0.9
+          Santo António     Shared room         8                  0.5
+São Domingos de Benfica Entire home/apt        98                 67.6
+São Domingos de Benfica    Private room        47                 32.4
+            São Vicente Entire home/apt      1072                 87.4
+            São Vicente    Private room       154                 12.6
+            São Vicente     Shared room         1                  0.1
+
+=== query_4 ===
+   host_type  listings avg_price
+   1 listing      4511     177.4
+ 5+ listings     12324     172.1
+2-4 listings      4978     165.4
+
+=== query_5 ===
+  host_id                       host_name  listings avg_price
+  3953109                 Feels Like Home       359     164.6
+508522478 Smith&Adams Property Management       241     147.0
+505424337                           Pedro       221      67.4
+419162816                            Ukio       203     153.0
+ 76223539                BnBird Homes Lda       201     197.8
+683922126                        Madalena       171     116.1
+186448151           ⁨Place To Stay (Ana)⁩       134     120.2
+  5691663  GestHomes By Alexandra & Pedro       119     177.2
+331391493                       Alojoeste        99     159.5
+265211529                            Inês        79     534.2
+
+=== query_6 ===
+ host_is_superhost  listings avg_price avg_rating
+                 0     14239     164.2       4.58
+                 1      7574     185.6       4.84
+
+=== query_7 ===
+ month  reviews
+     1    98533
+     2   102621
+     3   141776
+     4   167176
+     5   200506
+     6   195509
+     7   209283
+     8   228523
+     9   205748
+    10   182184
+    11   126844
+    12    90226
+
+=== query_8 ===
+ year  reviews pct_change
+ 2010        4       None
+ 2011      117     2825.0
+ 2012     1137      871.8
+ 2013     4191      268.6
+ 2014    12475      197.7
+ 2015    28917      131.8
+ 2016    52129       80.3
+ 2017    88384       69.5
+ 2018   122235       38.3
+ 2019   159470       30.5
+ 2020    50316      -68.4
+ 2021    81622       62.2
+ 2022   216554      165.3
+ 2023   261937       21.0
+ 2024   297100       13.4
+ 2025   324784        9.3
+
+=== query_9 ===
+ price_quartile min_price max_price avg_rating  listings
+              1     14.00     98.00       4.59      4886
+              2     98.00    139.80       4.67      4885
+              3    139.83    203.00       4.69      4885
+              4    203.00   1000.00       4.76      4885
+
+=== query_10 ===
+    neighbourhood  listings  reviews reviews_per_listing
+Santa Maria Maior      3649   508406               139.3
+     Misericórdia      2662   342682               128.7
+      São Vicente      1227   152350               124.2
+          Olivais       199    20556               103.3
+    Santo António      1521   131155                86.2
+          Estrela       993    78511                79.1
+            Belém       283    21523                76.1
+            Ajuda       235    17153                73.0
+          Arroios      2113   151146                71.5
+            Beato       131     9179                70.1
+
+=== query_11 ===
+         municipality  listings avg_price
+               Lisboa     17153     169.0
+              Cascais      2326     197.0
+               Sintra      1660     185.0
+                Mafra      1294     179.2
+              Lourinh       548     198.3
+               Oeiras       483     159.0
+        Torres Vedras       454     156.1
+               Loures       317     124.0
+              Amadora       285      96.1
+             Odivelas       178     109.3
+             Alenquer       119     192.9
+  Vila Franca De Xira        77     133.0
+              Cadaval        73     175.7
+Sobral De Monte Agrao        25     242.0
+             Azambuja        17     195.4
+    Arruda Dos Vinhos        11     157.8
