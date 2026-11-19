@@ -1,6 +1,6 @@
-# Airbnb in Lisbon: prices, hosts and seasonality with SQL
+# Airbnb in Lisbon: prices, hosts and seasonality
 
-What do 25,000 Airbnb listings and 1.9 million reviews say about short-term rentals in the Lisbon region? This project loads the public Inside Airbnb data into MySQL, answers 11 business questions in SQL and turns the results into charts.
+What do 25,000 Airbnb listings and 1.9 million reviews say about short-term rentals in the Lisbon region? This project loads the public Inside Airbnb data into MySQL, answers 11 business questions in SQL, turns the results into charts and builds an interactive Power BI dashboard.
 
 ## Data
 
@@ -20,8 +20,18 @@ The file covers 16 municipalities around Lisbon. Neighbourhood questions use onl
 1. `load_airbnb_mysql.py` cleans the CSV files with pandas (prices as numbers, dates, superhost flag, restores accents missing in some neighbourhood names) and loads them into four related MySQL tables with primary keys, foreign keys and indexes.
 2. `queries.sql` answers 11 questions with joins, CTEs and window functions (`ROW_NUMBER`, `NTILE`, `LAG`, `SUM() OVER`). `run_queries.py` runs them all and saves each result as a CSV.
 3. `make_charts.py` draws the figures from those CSVs.
+4. `export_for_powerbi.py` exports the Lisbon-city data to two small CSV files, which feed the Power BI dashboard (`airbnb_lisbon.pbix`).
 
 Price questions ignore prices below 10 EUR or above 1,000 EUR per night, which are most likely data errors.
+
+## Dashboard
+
+Two pages built in Power BI: an overview with KPIs (listings, median price, average rating, share of superhosts), median price per parish, reviews per month and filters by parish and room type; and a map of the listings coloured by room type, next to price by host type and rating of superhosts against the rest.
+
+![Dashboard overview](dashboard/overview.png)
+![Dashboard map and hosts](dashboard/map_and_hosts.png)
+
+Open `airbnb_lisbon.pbix` with Power BI Desktop to explore it.
 
 ## Findings
 
@@ -61,10 +71,11 @@ pip install pandas mysql-connector-python matplotlib
 python load_airbnb_mysql.py data
 python run_queries.py queries.sql
 python make_charts.py
+python export_for_powerbi.py
 ```
 
 `data/` holds `listings.csv` and `reviews.csv` from Inside Airbnb. A local MySQL 8 server is needed.
 
 ## Stack
 
-MySQL 8, Python (pandas, Matplotlib), SQL (CTEs, window functions).
+MySQL 8, Python (pandas, Matplotlib), SQL (CTEs, window functions), Power BI (DAX measures, relationships, map).
